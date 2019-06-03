@@ -10,7 +10,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "jest"
+    "test": "nyc riteway test/**/*-rt.js | tap-nirvana"
   },
   "dependencies": {
     "add": "^2.0.6",
@@ -18,7 +18,8 @@
     "gatsby-plugin-tslint": "0.0.2",
     "gatsby-plugin-typescript": "^2.0.15",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "riteway": "^6.0.3"
   },
   "devDependencies": {
     "babel-jest": "^24.8.0",
