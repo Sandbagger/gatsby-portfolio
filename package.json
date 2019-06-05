@@ -10,7 +10,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "nyc riteway test/**/*-rt.js | tap-nirvana"
+    "test": "nyc riteway test/**/*-rt.js | tap-nirvana",
+    "type-check": "tsc --noEmit",
+    "lint": "tslint --project ."
   },
   "dependencies": {
     "add": "^2.0.6",
