@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "add": "^2.0.6",
-    "gatsby": "^2.8.2",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-tslint": "0.0.2",
     "gatsby-plugin-typescript": "^2.0.15",
     "react": "^16.8.6",
